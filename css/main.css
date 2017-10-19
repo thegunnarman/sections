@@ -3,7 +3,13 @@ html {
   background-color: #eee9de;
   line-height: 1.5;
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+
+
+  width: 100%;
+
+  max-width: 25em;
+
 
 }
 
@@ -13,14 +19,21 @@ html {
 }
 
 body {
-  max-width: 25em
+  max-width: 25em;
+  width: 100%;
+
+
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 
 }
 
+img {
+    width: 100%;
+
+}
 p {
   color: #666;
   text-align: left;
