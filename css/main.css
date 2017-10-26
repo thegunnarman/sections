@@ -1,15 +1,9 @@
 html {
   box-sizing: border-box;
-  background-color: #eee9de;
+
   line-height: 1.5;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
-
-
-
-
-  max-width: 25em;
-
 
 }
 
@@ -21,6 +15,8 @@ html {
 body {
   max-width: 25em;
   width: 100%;
+  margin: 1.5em;
+  background-color: #eee9de;
 
 
 }
@@ -30,21 +26,37 @@ h1 {
 
 }
 
-div {
+.boo {
 
- display: inline-block;
- max-width: 25em;
+  display: inline-block;
+  max-width: 25em;
+
+}
+
+.booboo {
+
+  display: inline-block;
+  max-width: 25em;
 
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    display: block;
+    padding: .4em .75em .5em;
+    max-width: 369px;
+    margin-top: 2em;
 }
 
 p {
-  color: #333;
+  color: #666;
   text-align: left;
+  padding: .4em .75em .5em;
+}
+
+h2 {
+  padding: .4em .75em .5em;
 }
 
 nav li {
@@ -56,29 +68,30 @@ nav li {
   list-style-type: none;
   text-decoration: none;
   font-family: none;
-
-}
-
-a {
-  color: #333;
-  border: .1em solid #333;
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  display: inline;
-  text-decoration: none;
-  background-color: #eee9de;
   padding: .4em .75em .5em;
-  margin: .3em;
-  border-radius: .3em;
-  display: block;
-  border-color: #666;
-
 
 }
+
+
 
 a:hover {
   color: #b42885;
   background-color: #f33;
   text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #eee9de;
+  border-radius: 8px;
+  border: 0;
+  color: #333;
+  text-decoration: none;
+  border: .1em solid #333;
+  text-align: left;
+}
+.btn-alt {
+  background-color: #333
+  ;
 }
