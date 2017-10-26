@@ -6,7 +6,7 @@ html {
   font-family: "Lato", sans-serif;
 
 
-  width: 100%;
+
 
   max-width: 25em;
 
@@ -30,12 +30,20 @@ h1 {
 
 }
 
-img {
-    width: 100%;
+div {
+
+ display: inline-block;
+ max-width: 25em;
 
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 p {
-  color: #666;
+  color: #333;
   text-align: left;
 }
 
@@ -52,7 +60,8 @@ nav li {
 }
 
 a {
-  color: #666;
+  color: #333;
+  border: .1em solid #333;
   text-align: center;
   list-style-type: none;
   text-decoration: none;
